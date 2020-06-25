@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    user-select: none;
+}
+
+#global {
+    display: none;
+    padding: 30px;
+}
+
+#global div {
+    margin-bottom: 10px;
+}
+
+#global div p {
+    font-size: 35px;
+    text-align: center;
+}
+
+#global div p:last-child {
+    font-weight: bold;
+}
+
+#global div:last-child p:last-child{
+    color: #8aca2b;
+}
+
+table {
+    font-size: 20px;
+    margin: auto;
+    width: 75%;
+}
+
+table tr:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+table td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+table td:not(:first-child) {
+    text-align: right;
+}
+
+
+#table td:nth-child(3) {
+    background-color: #ff0000;
+    color: #fff;
+}
